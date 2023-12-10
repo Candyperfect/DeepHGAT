@@ -8,7 +8,7 @@
 
 
 
-**Environment Settings**
+*Environment Settings*
 * python == 3.8  
 * Pytorch == 1.12.1
 * Numpy == 1.23.5 
