@@ -12,12 +12,13 @@
 * fair-esm ==0.4.0
 
 # Usage 
-Please first **unzip** the data folders and then use. 
+Please first **unzip** the data folders and then use.
+For example,
 ````
 humancc/
-├─link.dat: Yeast protein sequence.    
-├─lint.dat.test: taxonomic similarity and direct acyclic graph of GO term.   
-└─node.dat: Yeast protein functional annotations
+├─link.dat: edge information of the constructed heterogeneous graph for tranining (format: node rank->node rank->edge type->score)   
+├─lint.dat.test: annotation information between proteins and GOterms for testing  (format: node rank->node rank->edge type->score)  
+└─node.dat: features of proteins and GO terms (format: node rank->node name->node type->feature)
 ````
 Enter the folder path：./methods/
 ````
