@@ -1,7 +1,14 @@
-# README
-"[Predicting Protein Functions based on Heterogeneous Graph Attention Technique]"
+# Predicting Protein Functions based on Heterogeneous Graph Attention Technique
+<p align="center">
+    <br>
+    <img src="./fig/DeepHGAT.png?raw=true" width="800" height="381"/>
+    <br>
+</p>
 
-# Environment Settings 
+
+
+
+**Environment Settings**
 * python == 3.8  
 * Pytorch == 1.12.1
 * Numpy == 1.23.5 
@@ -11,7 +18,7 @@
 * scikit-learn == 1.2.0 
 * fair-esm ==0.4.0
 
-# Usage 
+**Usage** 
 This data folder contains nine datasets on three species (Human, Mouse and Arabidopsis) and three branches of ontology (CC, MF and BP). Please first **unzip** the data folders and then use. For example,
 ````
 humancc/
