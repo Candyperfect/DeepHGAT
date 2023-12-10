@@ -20,7 +20,8 @@ humancc/
 ├─lint.dat.test: annotation information between proteins and GO terms for testing  (format: node rank->node rank->edge type->score)  
 └─node.dat: features of proteins and GO terms (format: node rank->node name->node type->feature, the sequence features obtained by the ESM_1b and the GO features based on the Ohe-hot encoding)
 ````
-Enter the folder path：./methods/
+Enter the folder path：./methods/model/
 ````
 python run_new.py --dataset [humancc/mousecc/arathcc/humanmf/mousemf/arathmf/humanbp/mousebp/arathbp]
 ````
+The results are stored as a .txt file and output in the current folder, (format: protein node rank->term node rank->edge type->score).
