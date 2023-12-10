@@ -12,7 +12,7 @@
 * fair-esm ==0.4.0
 
 # Usage 
-This data folder contains nine datasets on three species (Human, Mouse and Arabidopsis) and three branches of ontology (CC, MFand BP). Please first **unzip** the data folders and then use. For example,
+This data folder contains nine datasets on three species (Human, Mouse and Arabidopsis) and three branches of ontology (CC, MF and BP). Please first **unzip** the data folders and then use. For example,
 ````
 humancc/
 ├─link.dat: edge information of the constructed heterogeneous graph for training (format: node rank->node rank->edge type->score)   
