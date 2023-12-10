@@ -4,9 +4,7 @@
     <img src="./fig/DeepHGAT.png?raw=true" width="800" height="381"/>
     <br>
 </p>
-
-
-
+In bioinformatics, protein function prediction stands as a fundamental area of research and plays a crucial role in addressing various biological challenges, such as the identification of potential targets for drug discovery and the elucidation of disease mechanisms. However, known functional annotation databases usually provide positive experimental annotations that proteins carry out a given function, and rarely record negative experimental annotations that proteins do not carry out a given function. Therefore, existing computational methods based on deep learning models focus on these positive annotations for prediction and ignore these scarce but informative negative annotations, leading to an underestimation of precision. To address this issue, we introduce a deep learning method that utilizes a heterogeneous graph attention technique. The method first constructs a heterogeneous graph that covers the protein-protein interaction network, ontology structure, and positive and negative annotation information. Then, it learns embedding representations of proteins and ontology terms by using the heterogeneous graph attention technique. Finally, it leverages these learned representations to reconstruct the positive protein-term associations and score unobserved functional annotations. It can enhance the predictive performance by incorporating these known limited negative annotations into the constructed heterogeneous graph. Experimental results on three species (i.e., Human, Mouse, and Arabidopsis) demonstrate that our method can achieve better performance in predicting new protein annotations than state-of-the-art methods. 
 
 **Environment Settings**
 * python == 3.8  
@@ -19,7 +17,6 @@
 * fair-esm ==0.4.0
 
 **Usage** 
-
 This data folder contains nine datasets on three species (Human, Mouse and Arabidopsis) and three branches of ontology (CC, MF and BP). Please first **unzip** the data folders and then use. For example,
 ````
 humancc/
