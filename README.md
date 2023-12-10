@@ -8,7 +8,7 @@
 
 
 
-*Environment Settings*
+**Environment Settings**
 * python == 3.8  
 * Pytorch == 1.12.1
 * Numpy == 1.23.5 
@@ -19,6 +19,7 @@
 * fair-esm ==0.4.0
 
 **Usage** 
+
 This data folder contains nine datasets on three species (Human, Mouse and Arabidopsis) and three branches of ontology (CC, MF and BP). Please first **unzip** the data folders and then use. For example,
 ````
 humancc/
