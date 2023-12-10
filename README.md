@@ -12,7 +12,14 @@
 * fair-esm ==0.4.0
 
 # Usage 
+Please first **unzip** the data folders and then use. 
+````
+humancc/
+├─link.dat: Yeast protein sequence.    
+├─lint.dat.test: taxonomic similarity and direct acyclic graph of GO term.   
+└─node.dat: Yeast protein functional annotations
 ````
 Enter the folder path：./methods/
-python run_new.py --dataset [arathcc/humancc/mousecc/arathmf/humanmf/mousemf/arathbp/humanbp/mousebp]
+````
+python run_new.py --dataset [humancc/mousecc/arathcc/humanmf/mousemf/arathmf/humanbp/mousebp/arathbp]
 ````
