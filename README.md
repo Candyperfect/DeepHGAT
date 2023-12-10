@@ -1,7 +1,7 @@
 # Predicting Protein Functions based on Heterogeneous Graph Attention Technique
 <p align="center">
     <br>
-    <img src="./fig/DeepHGAT.png?raw=true" width="800" height="381"/>
+    <img src="./fig/DeepHGAT.png?raw=true" width="800" height="281"/>
     <br>
 </p>
 
