@@ -16,9 +16,9 @@ Please first **unzip** the data folders and then use.
 For example,
 ````
 humancc/
-├─link.dat: edge information of the constructed heterogeneous graph for tranining (format: node rank->node rank->edge type->score)   
-├─lint.dat.test: annotation information between proteins and GOterms for testing  (format: node rank->node rank->edge type->score)  
-└─node.dat: features of proteins and GO terms (format: node rank->node name->node type->feature)
+├─link.dat: edge information of the constructed heterogeneous graph for training (format: node rank->node rank->edge type->score)   
+├─lint.dat.test: annotation information between proteins and GO terms for testing  (format: node rank->node rank->edge type->score)  
+└─node.dat: features of proteins and GO terms (format: node rank->node name->node type->feature, the sequence features obtained by the ESM_1b and the GO features based on the Ohe-hot encoding)
 ````
 Enter the folder path：./methods/
 ````
