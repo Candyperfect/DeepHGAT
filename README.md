@@ -14,5 +14,5 @@
 # Usage 
 ````
 Enter the folder path：./methods/
-python run_new.py --dataset [arathcc/humancc/mousecc]
+python run_new.py --dataset [arathcc/humancc/mousecc/arathmf/humanmf/mousemf/arathbp/humanbp/mousebp]
 ````
