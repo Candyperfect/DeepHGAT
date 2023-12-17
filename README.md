@@ -31,4 +31,4 @@ Enter the folder path：./methods/model/
 ````
 python run_new.py --dataset [humancc/mousecc/arathcc/humanmf/mousemf/arathmf/humanbp/mousebp/arathbp]
 ````
-The results are stored as a .txt file and output in the current folder, (format: protein node rank->term node rank->edge type->score). This 'scripts' file contains the evaluation measurement code involved in the article
+The results are stored as a .txt file and output in the current folder, (format: protein node rank->term node rank->edge type->score). This 'scripts' file contains the evaluation measurement code involved in the article.
